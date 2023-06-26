@@ -1,0 +1,3 @@
+/home/theo/testing/thresholding/build/CMakeFiles/map.dir
+/home/theo/testing/thresholding/build/CMakeFiles/edit_cache.dir
+/home/theo/testing/thresholding/build/CMakeFiles/rebuild_cache.dir
