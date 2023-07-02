@@ -1,5 +1,5 @@
 % Load your image
-img = imread('mit_sp_boat_zoom_blur.png');
+img = imread('im_with_coord_blurred.png');
 
 % Convert the image to grayscale if it isn't already
 if size(img,3) == 3

@@ -1,10 +1,10 @@
 % Load the PNG image
-imageData = imread(['mit_sp_boat_zoom_blur.png']);
+imageData = imread(['node_focused.png']);
 
-imageData = flipud(imageData);
+%imageData = flipud(imageData);
 
 % Create a grid for the surface
-[X, Y] = meshgrid(linspace(-1, 1, size(imageData, 2)), linspace(-1, 1, size(imageData, 1)));
+[Y, X] = meshgrid(1:size(img,2), 1:size(img,1));
 Z = zeros(size(X)); % Create a flat surface (you can modify this if needed)
 
 % Create the figure and plot the surface
